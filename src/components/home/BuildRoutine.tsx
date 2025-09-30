@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 
 const routineSteps = {
   morning: [
-    { step: 1, name: 'Gentle Cleanser', description: 'Start with a clean canvas', price: 'LKR34.99' },
-    { step: 2, name: 'Vitamin C Serum', description: 'Brighten and protect', price: 'LKR89.99' },
-    { step: 3, name: 'Daily Moisturizer', description: 'Hydrate with SPF protection', price: 'LKR48.99' },
+    { step: 1, name: 'Gentle Cleanser', description: 'Start with a clean canvas', price: 'LKR1500' },
+    { step: 2, name: 'Vitamin C Serum', description: 'Brighten and protect', price: 'LKR1500' },
+    { step: 3, name: 'Daily Moisturizer', description: 'Hydrate with SPF protection', price: 'LKR1500' },
   ],
   evening: [
-    { step: 1, name: 'Gentle Cleanser', description: 'Remove the day away', price: 'LKR34.99' },
-    { step: 2, name: 'Balancing Toner', description: 'Refresh and balance', price: 'LKR42.99' },
-    { step: 3, name: 'Nourishing Face Oil', description: 'Deep overnight repair', price: 'LKR65.99' },
-    { step: 4, name: 'Night Cream', description: 'Regenerate while you sleep', price: 'LKR75.99' },
+    { step: 1, name: 'Gentle Cleanser', description: 'Remove the day away', price: 'LKR1500' },
+    { step: 2, name: 'Balancing Toner', description: 'Refresh and balance', price: 'LKR1500' },
+    { step: 3, name: 'Nourishing Face Oil', description: 'Deep overnight repair', price: 'LKR1500' },
+    { step: 4, name: 'Night Cream', description: 'Regenerate while you sleep', price: 'LKR1500' },
   ]
 };
 
@@ -103,8 +103,7 @@ const BuildRoutine = () => {
                 Complete {activeRoutine} routine
               </Badge>
               <h3 className="text-2xl font-serif font-bold text-primary mb-2">
-                Total: ${totalPrice.toFixed(2)}
-              </h3>
+                Total: LKR 1500              </h3>
               <p className="text-muted-foreground">
                 Save 15% when you purchase the complete routine
               </p>
