@@ -10,14 +10,14 @@ import Video from '@/assets/vid.mp4';
 import Thumbnail from '@/assets/screenshot.png';
 
 const availableProducts = [
-  { id: 1, name: 'Gentle Cleanser', category: 'cleanser', description: 'Removes impurities without stripping', price: 34.99 },
-  { id: 2, name: 'Balancing Toner', category: 'toner', description: 'Restores pH and preps skin', price: 42.99 },
-  { id: 3, name: 'Vitamin C Serum', category: 'serum', description: 'Brightens and protects from damage', price: 89.99 },
-  { id: 4, name: 'Hyaluronic Serum', category: 'serum', description: 'Intense hydration boost', price: 75.99 },
-  { id: 5, name: 'Daily Moisturizer SPF', category: 'moisturizer', description: 'Hydrates with sun protection', price: 48.99 },
-  { id: 6, name: 'Night Cream', category: 'moisturizer', description: 'Rich overnight repair', price: 75.99 },
-  { id: 7, name: 'Nourishing Face Oil', category: 'oil', description: 'Deep nourishment and repair', price: 65.99 },
-  { id: 8, name: 'Eye Cream', category: 'eye', description: 'Targets fine lines and puffiness', price: 54.99 }
+  { id: 1, name: 'Gentle Cleanser', category: 'cleanser', description: 'Removes impurities without stripping', price: 1500 },
+  { id: 2, name: 'Balancing Toner', category: 'toner', description: 'Restores pH and preps skin', price: 1500 },
+  { id: 3, name: 'Vitamin C Serum', category: 'serum', description: 'Brightens and protects from damage', price: 1500 },
+  { id: 4, name: 'Hyaluronic Serum', category: 'serum', description: 'Intense hydration boost', price: 1500 },
+  { id: 5, name: 'Daily Moisturizer SPF', category: 'moisturizer', description: 'Hydrates with sun protection', price: 1500 },
+  { id: 6, name: 'Night Cream', category: 'moisturizer', description: 'Rich overnight repair', price: 1500 },
+  { id: 7, name: 'Nourishing Face Oil', category: 'oil', description: 'Deep nourishment and repair', price: 1500 },
+  { id: 8, name: 'Eye Cream', category: 'eye', description: 'Targets fine lines and puffiness', price: 1500 }
 ];
 
 const RoutineBuilder = () => {
@@ -147,7 +147,7 @@ const RoutineBuilder = () => {
                                 {product.description}
                               </p>
                               <span className="text-primary font-semibold">
-                                ${product.price.toFixed(2)}
+                                LKR{product.price.toFixed(2)}
                               </span>
                             </div>
                             <Button
@@ -197,7 +197,7 @@ const RoutineBuilder = () => {
                                 </p>
                               </div>
                               <span className="text-primary font-semibold">
-                                ${product.price.toFixed(2)}
+                                LKR{product.price.toFixed(2)}
                               </span>
                               <Button
                                 size="sm"
@@ -222,7 +222,7 @@ const RoutineBuilder = () => {
                           {activeRoutine} routine ({currentRoutine.length} products)
                         </Badge>
                         <h3 className="text-2xl font-serif font-bold text-primary mb-2">
-                          Total: ${getTotalPrice().toFixed(2)}
+                          Total: LKR{getTotalPrice().toFixed(2)}
                         </h3>
                         <p className="text-muted-foreground text-sm">
                           Save 15% when you purchase the complete routine

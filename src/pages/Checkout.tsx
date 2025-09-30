@@ -249,7 +249,7 @@ const Checkout = () => {
                       <h4 className="font-medium text-foreground">Hydrating Vitamin C Serum</h4>
                       <p className="text-sm text-muted-foreground">Quantity: 2</p>
                     </div>
-                    <span className="font-medium">$179.98</span>
+                    <span className="font-medium">LKR 179.98</span>
                   </div>
                   
                   <div className="flex justify-between items-start">
@@ -257,7 +257,7 @@ const Checkout = () => {
                       <h4 className="font-medium text-foreground">Regenerating Night Cream</h4>
                       <p className="text-sm text-muted-foreground">Quantity: 1</p>
                     </div>
-                    <span className="font-medium">$75.99</span>
+                    <span className="font-medium">LKR 75.99</span>
                   </div>
                 </div>
                 
@@ -266,7 +266,7 @@ const Checkout = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Subtotal</span>
-                    <span className="font-medium">${orderSummary.subtotal.toFixed(2)}</span>
+                    <span className="font-medium">LKR {orderSummary.subtotal.toFixed(2)}</span>
                   </div>
                   
                   <div className="flex justify-between items-center">
@@ -274,21 +274,21 @@ const Checkout = () => {
                     <div className="text-right">
                       <span className="font-medium">Free</span>
                       <Badge variant="secondary" className="ml-2 text-xs">
-                        Over $75
+                        Over LKR 75
                       </Badge>
                     </div>
                   </div>
                   
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Tax</span>
-                    <span className="font-medium">${orderSummary.tax.toFixed(2)}</span>
+                    <span className="font-medium">LKR {orderSummary.tax.toFixed(2)}</span>
                   </div>
                   
                   <Separator />
                   
                   <div className="flex justify-between text-lg font-bold">
                     <span>Total</span>
-                    <span className="text-primary">${orderSummary.total.toFixed(2)}</span>
+                    <span className="text-primary">LKR {orderSummary.total.toFixed(2)}</span>
                   </div>
                 </div>
                 

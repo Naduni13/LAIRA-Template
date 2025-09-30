@@ -60,11 +60,11 @@ const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <span className="text-lg font-semibold text-primary">
-              ${product.price}
+              LKR{product.price}
             </span>
             {product.originalPrice && (
               <span className="text-sm text-muted-foreground line-through">
-                ${product.originalPrice}
+                LKR {product.originalPrice}
               </span>
             )}
           </div>

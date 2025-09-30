@@ -13,8 +13,8 @@ const temporarySaleProducts = [
     id: 4,
     name: "Vitamin C Brightening Serum",
     description: "Powerful antioxidant serum that brightens skin tone and reduces dark spots with 20% vitamin C.",
-    price: 32.99,
-    originalPrice: 45.99,
+    price:1500,
+    originalPrice: 2500,
     rating: 4.8,
     reviews: 142,
     image: productToner
@@ -83,10 +83,10 @@ const WeeklyDeals = () => {
 
                 <div className="flex items-center space-x-3">
                   <span className="text-2xl font-bold text-primary">
-                    ${product.price}
+                    LKR{product.price}
                   </span>
                   <span className="text-lg text-muted-foreground line-through">
-                    ${product.originalPrice}
+                    LKR{product.originalPrice}
                   </span>
                 </div>
 

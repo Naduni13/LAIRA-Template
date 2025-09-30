@@ -13,8 +13,8 @@ const mockCartItems: CartItem[] = [
     id: '1',
     name: 'Hydrating Vitamin C Serum',
     description: 'Brightening serum with natural vitamin C and hyaluronic acid.',
-    price: 89.99,
-    originalPrice: 109.99,
+    price: 1500,
+    originalPrice: 1800,
     image: '/src/assets/product-serum.jpg',
     category: 'serum',
     skinType: ['dry', 'normal', 'combination'],
@@ -28,7 +28,7 @@ const mockCartItems: CartItem[] = [
     id: '2',
     name: 'Regenerating Night Cream',
     description: 'Rich, nourishing night cream with organic botanicals.',
-    price: 75.99,
+    price: 2500,
     image: '/src/assets/product-cream.jpg',
     category: 'moisturizer',
     skinType: ['dry', 'mature', 'normal'],
@@ -124,11 +124,11 @@ const Cart = () => {
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
                           <span className="text-lg font-semibold text-primary">
-                            ${item.price}
+                            LKR{item.price}
                           </span>
                           {item.originalPrice && (
                             <span className="text-sm text-muted-foreground line-through">
-                              ${item.originalPrice}
+                            LKR{item.originalPrice}
                             </span>
                           )}
                         </div>
