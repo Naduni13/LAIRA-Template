@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 
 const routineSteps = {
   morning: [
-    { step: 1, name: 'Gentle Cleanser', description: 'Start with a clean canvas', price: 'LKR 34.99' },
-    { step: 2, name: 'Vitamin C Serum', description: 'Brighten and protect', price: 'LKR 89.99' },
-    { step: 3, name: 'Daily Moisturizer', description: 'Hydrate with SPF protection', price: 'LKR 48.99' },
+    { step: 1, name: 'Gentle Cleanser', description: 'Start with a clean canvas', price: 'LKR34.99' },
+    { step: 2, name: 'Vitamin C Serum', description: 'Brighten and protect', price: 'LKR89.99' },
+    { step: 3, name: 'Daily Moisturizer', description: 'Hydrate with SPF protection', price: 'LKR48.99' },
   ],
   evening: [
-    { step: 1, name: 'Gentle Cleanser', description: 'Remove the day away', price: 'LKR 34.99' },
-    { step: 2, name: 'Balancing Toner', description: 'Refresh and balance', price: 'LKR 42.99' },
-    { step: 3, name: 'Nourishing Face Oil', description: 'Deep overnight repair', price: 'LKR 65.99' },
-    { step: 4, name: 'Night Cream', description: 'Regenerate while you sleep', price: 'LKR 75.99' },
+    { step: 1, name: 'Gentle Cleanser', description: 'Remove the day away', price: 'LKR34.99' },
+    { step: 2, name: 'Balancing Toner', description: 'Refresh and balance', price: 'LKR42.99' },
+    { step: 3, name: 'Nourishing Face Oil', description: 'Deep overnight repair', price: 'LKR65.99' },
+    { step: 4, name: 'Night Cream', description: 'Regenerate while you sleep', price: 'LKR75.99' },
   ]
 };
 
